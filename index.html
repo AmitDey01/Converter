@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Number Conversion</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="Image/Numconversion.webp" alt="" class="num-img" />
+    <!-- <h1>Converter</h1> -->
+  
+
+    <div class="wrapper">
+      <header class="header">Convertor</header>
+          <div class="Main">
+              <div class="Number" id="Number">
+                  <p id="input">Please Enter the Value </p>
+                  <input type="text" id="take-input" class="input">
+                  </div>
+                  <div class="drop-list">
+                      <div class="from" id="from">
+                      <p>From</p>
+                      <div class="select-box" >
+                          <select id="select-from" name="select-from">
+                              <option  value="" >--Select--</option>
+                              <option  value="Decimal" >Decimal</option>
+                              <option  value="Hexadecimal">Hexadecimal</option>
+                              <option  value="Octal">Octal</option>
+                              <option  value="Binary">Binary</option>
+                          </select>
+                      </div>
+                      </div>
+                          <div class="icon">
+                              <button class="button" id="swapBtn">&#8633</button>         
+                          </div>
+                      <div class="to" id="to">
+                      <p>To</p>
+                      <div class="select-box">
+                          <select id="select-to" name="select-to">
+                              <option  value="">--Select--</option>
+                              <option  value="Decimal">Decimal</option>
+                              <option  value="Hexadecimal">Hexadecimal</option>
+                              <option  value="Octal">Octal</option>
+                              <option  value="Binary">Binary</option>
+                          </select>
+                      </div>
+                  </div>
+                  </div>
+              <div class="converted-value">
+                  <p id="value" class="value"></p></div>
+              
+          <div class="last">
+              <button id="Convertor"class="Convertor">Convert</button>
+          </div>
+          </div>
+          
+      </div>
+
+    <script src="script.js"></script>
+
+
+
+
+  </body>
+</html>
